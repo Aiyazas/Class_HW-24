@@ -1,0 +1,120 @@
+/* 
+Table of content:-
+`````````````````````````
+************** Common CSS ***************
+1)Reset Css.
+2)Top Header Section.
+3)Navbar Section.
+4)Inner Page Heading.
+5)Product Card.
+6)Footer Section.
+*/
+:root{
+    --primary-font: 'Josefin Sans', sans-serif;
+    --secondary-font:  'Roboto', sans-serif;
+    --text-color:#11161E;
+    --dark-hover-color:#151A32;
+    --light-color:#ffffff;
+    --black-color:#000000;
+    --primary-color-light:#FF6F61;
+    --primary-color-dark:#FF5645;
+    --paragraph-color:#444444;
+    --bg-color-dark:#F1F1F1;
+    --bg-color-light:#F1F3F4;
+}
+
+
+/* (1) Reset Css Start*/
+body{
+    font-family: var(--primary-font);
+}
+p{
+    font-family: var(--secondary-font);
+    
+}
+h1,h2,h3,h4,h5,h6,
+p,
+ul,ol,
+span,
+small{
+    margin: 0;
+    padding: 0;
+}
+ul,ol{
+    list-style-type: none;
+}
+a,a:hover{
+    text-decoration: none;
+}
+input:focus{
+    outline: 0;
+}
+.from-control:focus{
+    box-shadow: none;
+}
+/*(1) Reset Css End*/
+/*  (2) Top Header Section CSS start*/
+header{
+    background-color: #151A32;
+    
+}
+header .header_left_part p{
+    color: var(--light-color);
+    display: flex;
+    padding: 11px 0;
+}
+header .header_left_part i,span{
+    color: var(--primary-color-light);
+}
+header .header_right_part .header_manu li .header_manu_1{
+    color: var(--light-color) ;
+    margin: 0 40px;
+    transition: 0.7s;
+    
+}
+header .header_right_part .header_manu li .header_manu_1:hover{
+    color: var(--primary-color-light) ;
+    
+}
+header .header_right_part .header_icon li a{
+    font-size: 20px;
+    margin: 0 20px 0 0;
+    color: var(--light-color) ;
+    transition: 0.7s;
+
+}
+header .header_right_part .header_icon li a:hover{
+
+    color: var(--primary-color-light) ;
+
+}
+/* (2) Top Header Section CSS END */
+
+/* (3) Navbar Section CSS Start */
+nav .nav_logo{
+    padding: 18px 0;
+}
+nav .nav_manu,.nav_icon{
+    padding: 36px 0;
+}
+nav .nav_manu .nav_manu_6{
+    
+    color: var(--text-color);
+    margin:0 45px;
+    font-size: 26px;
+}
+
+nav .nav_icon ul li a{
+    font-size: 24px;
+    color:var(--dark-hover-color) ;
+    margin:0 20px ;
+    transition: 0.7s;
+
+}
+nav .nav_icon ul li a:hover{
+    color: var(--primary-color-light) ;
+
+}
+
+
+/* (3) Navbar Section CSS End */
